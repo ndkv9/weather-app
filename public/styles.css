@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+	color: white;
+	position: relative;
+	display: inline-block;
+	margin: auto;
+	padding: 15px 25px;
+	font-size: 40px;
+	font-weight: 700;
+	text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
+}
+
+.App {
+	background-image: linear-gradient(
+			to bottom right,
+			rgba(187, 34, 5, 0.75),
+			rgba(255, 166, 43, 0.75),
+			rgba(0, 195, 255, 0.75),
+			rgba(31, 60, 136, 0.75)
+		),
+		url('./imgs/app.jpg');
+	background-repeat: no-repeat;
+	transition: 0.2s ease;
+}
+
+.App.hot {
+	background-image: linear-gradient(
+			to bottom,
+			rgba(255, 16, 16, 0.52),
+			rgba(0, 0, 0, 0.73)
+		),
+		url('./imgs/hot.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.2s ease;
+}
+
+main {
+	min-height: 100vh;
+	padding: 25px;
+	text-align: center;
+}
+
+.noti {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 1px 1px rgba(58, 53, 53, 0.6);
+}
+
+.App.cold {
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 255, 213, 0.52),
+			rgba(0, 0, 0, 0.73)
+		),
+		url('./imgs/cold.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.2s ease;
+}
+
+.search-container {
+	width: 80%;
+	margin: 20px 10% 75px;
+}
+
+.search-bar {
+	color: black;
+	font-size: 15px;
+	display: inline;
+	width: 75%;
+	padding: 15px;
+	border: none;
+	outline: none;
+	appearance: none;
+	border-radius: 15px 0px 0px 15px;
+	box-shadow: 0px 5px rgba(58, 53, 53, 0.73);
+	background: rgba(255, 255, 255, 0.75);
+	transition: 0.4s ease;
+}
+
+.search-btn {
+	background: rgba(7, 104, 159, 0.4);
+	color: white;
+	font-size: 15px;
+	display: inline;
+	width: 25%;
+	padding: 15px;
+	border: none;
+	outline: none;
+	appearance: none;
+	border-radius: 0px 15px 15px 0px;
+	box-shadow: 0px 5px rgba(58, 53, 53, 0.73);
+	transition: 0.4s ease;
+}
+
+.search-container .search-bar:focus {
+	background-color: white;
+}
+
+.search-container .search-bar:hover {
+	background-color: white;
+}
+
+.search-container .search-btn:hover {
+	background-color: #0e918c;
+}
+
+.location-container {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 1px 1px rgba(58, 53, 53, 0.6);
+}
+
+.date {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 1px 1px rgba(58, 53, 53, 0.6);
+	margin-top: 30px;
+}
+
+.weather-container {
+	text-align: center;
+}
+
+.weather-container .temperature {
+	color: white;
+	position: relative;
+	display: inline-block;
+	margin: 30px auto;
+	padding: 15px 25px;
+	font-size: 100px;
+	font-weight: 700;
+	background-color: rgb(255, 255, 255, 0.1);
+	border-radius: 16px;
+	box-shadow: 3px 3px rgba(58, 53, 53, 0.73);
+	text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
+}
+
+.weather-container .weather {
+	color: white;
+	font-size: 50px;
+	font-weight: 700;
+	text-shadow: 3px 3px rgba(58, 53, 53, 0.5);
+}
+
+.footer {
+	background: #1a1c20;
+	font-size: 1rem;
+	color: #0e918c;
+	padding: 2rem 0;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.footer p a {
+	color: white;
+	font-size: 1.3rem;
+	transition: all 0.4s;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #f9813a;
+}
