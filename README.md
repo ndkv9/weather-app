@@ -94,7 +94,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **vu.nguyen101@gmail.com**
 
-Project Link: [fall guys gone wild](https://weather-spa.netlify.app/)
+Project Link: [Weather Forecast App](https://weather-spa.netlify.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
