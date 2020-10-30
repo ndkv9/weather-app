@@ -100,7 +100,7 @@ Project Link: [Weather Forecast App](https://weather-spa.netlify.app/)
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [license-shield]: https://img.shields.io/github/license/ndkv101/jwt-auth.svg?style=flat-square
-[license-url]: https://github.com/ndkv101/jwt-auth/blob/master/LICENSE
+[license-url]: https://github.com/ndkv101/weather-app/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ndkv9
 [product-screenshot]: https://i.imgur.com/DrYVXvG.png
