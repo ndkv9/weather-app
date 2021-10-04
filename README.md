@@ -4,8 +4,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/ndkv101/weather-app">
-    <img src="https://www.flaticon.com/svg/static/icons/svg/3127/3127236.svg" alt="Logo" width="80" height="80">
+  <a href="https://weather-spa.netlify.app/">
+    <img src="https://i.imgur.com/wSUeZlX.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Weather Forecast App</h3>
@@ -16,7 +16,7 @@
     <a href="https://github.com/ndkv101/weather-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ndkv101/weather-app">View Demo</a>
+    <a href="https://weather-spa.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/ndkv101/weather-app/issues">Report Bug</a>
     ·
