@@ -16,7 +16,7 @@
     <a href="https://github.com/ndkv101/weather-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ndkv101/weather-app">View Demo</a>
+    <a href="https://weather-spa.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/ndkv101/weather-app/issues">Report Bug</a>
     ·
