@@ -40,19 +40,26 @@
 
 ### Installation
 
+0. Make sure you have NodeJS install in your machine
+
+```sh
+sudo apt update
+sudo apt install nodejs
+```
+
 1. Clone the repo
 
 ```sh
 git clone https://github.com/ndkv101/weather-app
 ```
 
-1. Install NPM packages
+2. Install NPM packages
 
 ```sh
 npm install
 ```
 
-3. Implement application on local server
+3. Implement application
 
 ```sh
 npm start
