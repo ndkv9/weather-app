@@ -9,7 +9,7 @@ services:
     ports:
       - 3000:3000
     environment:
-      - REACT_APP_API=https://api.openweathermap.org/data/2.5/weather?appid=822915c9a7556c636bf8ada789765646&q=
+      - REACT_APP_API=https://api.openweathermap.org/data/2.5/weather?appid=822915c9a7556c636bf8ada789765646&q&units=metric&q=
     volumes:
       - ./:/usr/src/app
       - node_modules:/usr/src/app/node_modules
