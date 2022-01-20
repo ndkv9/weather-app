@@ -11,7 +11,7 @@
   <h3 align="center">Weather Forecast App</h3>
 
   <p align="center">
-   Simple Weather forecast app bases on city name input from users
+   Simple Weather forecast app bases on city name input from users, this is built on top of `openweathermap` API
     <br />
     <a href="https://github.com/ndkv101/weather-app"><strong>Explore the docs »</strong></a>
     <br />
@@ -64,6 +64,8 @@ npm install
 ```sh
 npm start
 ```
+
+4. Add env REACT_APP_API in an `.env` file or as an environments in the `docker-compose` file
 
 <!-- USAGE EXAMPLES -->
 
