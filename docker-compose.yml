@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  weather-app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: [ "yarn", "start" ]
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/usr/src/app
+      - node_modules:/usr/src/app/node_modules
+    container_name: weather-app
+
+volumes:
+  node_modules:
